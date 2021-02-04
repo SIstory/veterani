@@ -3,8 +3,34 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
+            <title>Vojni veterani na prelomu tisočletja</title>
             <title>Življenjepisi vojnih veteranov '91</title>
                  <funder>Javna agencija za raziskovalno dejavnost Republike Slovenije, Raziskovalna infrastruktura slovenskega zgodovinopisja (I0-0013), DARIAH-SI</funder>
+            <respStmt>
+               <resp>Zbral in uredil</resp>
+               <name>Tomaž Teropšič</name>
+            </respStmt>
+            <respStmt>
+               <resp>Avtorji</resp>
+               <name>Miran Fišer</name>
+               <name>Dušan Kerin</name>
+               <name>Ivan Herbert Kukec</name>
+               <name>Jože Kuzman</name>
+               <name>Ladislav Lipič</name>
+               <name>Mitja Močnik</name>
+               <name>Miha Molan</name>
+               <name>Tomaž Teropšič</name>
+               <name>Ciril Zabret</name>
+               <name>Vlado Žgeč</name>
+            </respStmt>
+            <respStmt>
+               <resp>Jezikovni pregled</resp>
+               <name>Polona Kekec</name>
+            </respStmt>
+            <respStmt>
+               <resp>Pretvorba v TEI P5</resp>
+               <name>Mihael Ojsteršek</name>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition>Digitalna izdaja 1.0</edition>
@@ -12,6 +38,23 @@
          <publicationStmt>
             <publisher>Inštitut za novejšo zgodovino</publisher>
             <date when="2020">2020</date>
+            <availability>
+                <licence>http://creativecommons.org/licenses/by-nc-nd/4.0/</licence>
+                <p>To delo je ponujeno pod <ref
+                        target="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative
+                        Commons Priznanje avtorstva-Nekomercialno-Brez predelav 4.0 Mednarodna
+                        licenco</ref>
+                </p>
+                <p rend="CIP"><![CDATA[Kataložni zapis o publikaciji (CIP) pripravili v Narodni in univerzitetni knjižnici v Ljubljani<br/>
+<a href="http://COBISS.SI" target="_blank">COBISS.SI</a>-ID=<a href="">XXXX</a><br/>
+ISBN XXXX (epub)<br/>
+ISBN XXXX (html)<br/>]]></p>
+            </availability>
+            <idno type="ISBN">
+                <idno type="html">ISBN XXXX (html)</idno>
+                <idno type="epub">ISBN XXXX (epub)</idno>
+            </idno>
+            <idno type="cobiss">XXXX</idno>
             <idno type="sistory" corresp="#veterani #titleAuthor #search">44866</idno>
             <idno type="sistory" corresp="#preface">44566</idno>
             <idno type="sistory" corresp="#ch01">44631</idno>
@@ -24,10 +67,11 @@
             <idno type="sistory" corresp="#ch08">44568</idno>
             <idno type="sistory" corresp="#ch09">44758</idno>
             <idno type="sistory" corresp="#ch10">44688</idno>
-            <pubPlace>Dostopno na <ref target="https://www.sistory.si/11686/menu844"/>https://www.sistory.si/11686/menu844</pubPlace>
+            <pubPlace>Dostopno na <ref target="https://www.sistory.si/11686/menu844">https://www.sistory.si/11686/menu844</ref></pubPlace>
          </publicationStmt>
          <sourceDesc>
-            <p>Converted from a Word document</p>
+             <p xml:lang="sl">Originalno digitalno besedilo.</p>
+             <p xml:lang="en">Born digital.</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -50,6 +94,7 @@
       <front>
          <titlePage>
             <docTitle>
+               <titlePart>Vojni veterani na prelomu tisočletja</titlePart>
                <titlePart>Življenjepisi vojnih veteranov '91</titlePart>
             </docTitle>
             <!--
@@ -70,6 +115,12 @@
                <docDate>2020</docDate>
             </docImprint>
          </titlePage>
+         <divGen type="cip" xml:id="cip">
+             <head>Kolofon</head>
+         </divGen>
+         <divGen type="teiHeader" xml:id="teiHeader">
+             <head>TEI kolofon</head>
+         </divGen>
          <divGen type="toc" xml:id="titleAuthor">
             <head>Vsebina</head>
          </divGen>
@@ -778,8 +829,8 @@
                     investicije v zgradbe, opremo in usposabljanje. Zaradi slednjega so policisti po
                     nepotrebnem izpostavljeni prekomernim tveganjem in morajo svoje pravice iskati
                     na sodiščih in preko različnih oblik sindikalnega dela tudi na ulici.<note place="foot" xml:id="ftn9" n="9">
-                  <p rend="footnote text"> Redka so leta, da
-                            pripadniki Policije v Sloveniji ne stavkajo.</p>
+                   Redka so leta, da
+                            pripadniki Policije v Sloveniji ne stavkajo.
                </note> Katastrofalno je
                     tudi ravnanje s policisti, ki izpolnijo pogoje za upokojitev. Poleg nizkih
                     pokojnin je nerazumljivo, da država upokojenim vojakom in policistom ob
@@ -1105,7 +1156,7 @@
                     Slovenije.</p>
          </div>
          <div type="chapter" xml:id="ch04">
-            <head type="main" xml:id="head-36">Jože Kuzman: Ponosen na Teritorialno obrambo</head>
+            <head type="main" xml:id="head-36">Ponosen na Teritorialno obrambo</head>
             <head type="sub" xml:id="head-37">Življenjepis, Jože Kuzman, vojni veteran</head>
             <docAuthor xml:id="docAuthor-4">Jože Kuzman</docAuthor>
             <p xml:id="p-81">Letošnja 50. obletnica ustanovitve Teritorialne obrambe Slovenije mi je na neki
