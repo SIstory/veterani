@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="veterani">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Življenjepisi vojnih veteranov '91</title>
+                 <funder>Javna agencija za raziskovalno dejavnost Republike Slovenije, Raziskovalna infrastruktura slovenskega zgodovinopisja (I0-0013), DARIAH-SI</funder>
          </titleStmt>
          <editionStmt>
-            <edition>Electronic edition 1.0 <date>2020-12-16</date>
-            </edition>
+            <edition>Digitalna izdaja 1.0</edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Inštitut za novejšo zgodovino</publisher>
             <date when="2020">2020</date>
+            <idno type="sistory" corresp="#veterani #titleAuthor #search">44866</idno>
             <idno type="sistory" corresp="#preface">44566</idno>
             <idno type="sistory" corresp="#ch01">44631</idno>
             <idno type="sistory" corresp="#ch02">44570</idno>
@@ -62,8 +63,10 @@
                 <docAuthor>Tomaž Teropšič</docAuthor>
                 <docAuthor>Ciril Zabret</docAuthor>
                 <docAuthor>Vlado Žgeč</docAuthor>-->
-            <graphic url="https://www.sistory.si/publikacije/image/?id=44566&amp;width=247&amp;height=350"/>
+            <graphic url="https://www.sistory.si/publikacije/image/?id=44566&amp;width=490&amp;height=600"/>
             <docImprint>
+               <publisher>Inštitut za novejšo zgodovino</publisher>
+               <pubPlace>Ljubljana</pubPlace>
                <docDate>2020</docDate>
             </docImprint>
          </titlePage>
@@ -107,7 +110,7 @@
                <head>Pomnik Krakovski gozd. Pomnik osamosvojitveni vojni Slovenije leta 1991.
                         Stoji v Zalokah v občini Krško. Postavili so ga leta 2005. Foto: Foto
                         Rožman, Brežice.</head>
-               <graphic n="1" url="/media/Uvod1.jpg"/>
+               <graphic n="1" url="media/Uvod1.jpg"/>
             </figure>
             <p xml:id="p-5">Nasproti njej so stali slovenska teritorialna obramba s 16.000 teritorialci v
                     začetku agresije, nato je njihovo število narastlo na 35.200, slovenska milica z
@@ -139,7 +142,7 @@
                <head>Pomnik Rigonce. Pomnik osamosvojitveni vojni Slovenije leta 1991. Stoji v
                         Rigoncah v občini Brežice. Postavili so ga leta 1993. Foto: Tomaž Teropšič,
                         Brežice.</head>
-               <graphic n="2" url="/media/Uvod2.jpg"/>
+               <graphic n="2" url="media/Uvod2.jpg"/>
             </figure>
             <p xml:id="p-8">
                <hi rend="bold">Leta 2016 so ustanovili petčlansko zgodovinsko komisijo Zveze
@@ -190,9 +193,9 @@
             </list>
             <p xml:id="p-10">Komisiji je v kratkem uspelo zbrati deset življenjepisov in več pripadajočih
                     fotografij, ki jih sedaj predstavljamo slovenski javnosti. To so slovenski
-                    bojevniki: (po abecedi) <hi rend="bold">Miran Fišer</hi>,<hi rend="bold"> Dušan
-                        Kerin</hi>,<hi rend="bold"> Ivan Herbert Kukec</hi>,<hi rend="bold"> Jože
-                        Kuzman, Ladislav Lipič</hi>,<hi rend="bold"> Mitja Močnik</hi>,<hi rend="bold"> Miha Molan</hi>,<hi rend="bold"> Tomaž Teropšič</hi>,<hi rend="bold"> Ciril Zabret </hi>in<hi rend="bold"> Vlado Žgeč</hi>. Z njimi
+                    bojevniki: (po abecedi) <hi rend="bold">Miran Fišer</hi>, <hi rend="bold">Dušan
+                        Kerin</hi>, <hi rend="bold">Ivan Herbert Kukec</hi>, <hi rend="bold">Jože
+                        Kuzman, Ladislav Lipič</hi>, <hi rend="bold">Mitja Močnik</hi>, <hi rend="bold">Miha Molan</hi>, <hi rend="bold">Tomaž Teropšič</hi>, <hi rend="bold">Ciril Zabret</hi> in <hi rend="bold">Vlado Žgeč</hi>. Z njimi
                     smo prišli do podatkov, ki še niso bili zapisani ali pa jih bomo v uradnih
                     dokumentih zaman iskali. Seveda smo na tak način prišli še do kvalitetno
                     dokumentiranih fotografij, ki so koristno in večplastno gradivo. Sedaj so ti
@@ -225,7 +228,7 @@
             <figure xml:id="figure-3">
                <head>Polkovnik Slovenske vojske Miran Fišer v službeni uniformi leta
                         2017.</head>
-               <graphic n="3" url="/media/image1.jpeg"/>
+               <graphic n="3" url="media/image1.jpeg"/>
             </figure>
             <p xml:id="p-12">Pri odločanju za poklic sem najprej izbral elektrotehnično šolo v Ljubljani,
                     kamor sem se vpisal kot vojaški štipendist in dijak Vojaškega dijaškega doma.
@@ -270,7 +273,7 @@
                     prosti čas poiskal delo v razglasni postaji, neke vrste študentskem radiu, ki je
                     program objavljal kar preko ozvočenja kasarne in v uredništvu Biltena, kjer smo
                     se naučili malih in velikih skrivnosti dela novinarskega in tiskarskega dela v
-                    vojaških razmerah. </p>
+                    vojaških razmerah.</p>
             <p xml:id="p-16">Po uspešnem študiju me je mentor profesor dr. Milan Novak vzpodbujal, da
                     zaključim šolanje na Višji agronomski šoli v Mariboru z diplomsko temo Uporaba
                     kmetijskih strojev in naprav v vojni. Dela sem se lotil z velikim elanom:
